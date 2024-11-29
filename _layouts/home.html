@@ -1,27 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} | {{ site.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
 </head>
-{% include header.html %}
-<section class="hero-banner">
-    <h2>H2</h2>
-    <p>P</p>
-    <a href="/Spurt-Empire-Games/purchase" class="button">Button!</a>
-</section>
-
-<p class="copy-spurt">
-    MAzi
-</p>
-<img src="{{ '/assets/images/Mazi.jpg' | relative_url }}" alt="Spurt! Empire Game Board" class="copy-image">
-<section class="features">
-    <h3>Bio</h3>
-    <ul>
-        <li>..</li>
-        <li>..</li>
-        <li>..</li>
-    </ul>
-</section>
-
-{% include footer.html %}
+<body>
+    {% include header.html %}
+    
+    <section class="hero-banner">
+        <h2>Welcome to Vertex Innovations</h2>
+        <p>ioneering the future with innovative solutions for a better tomorrow.</p>
+        <a href="/MyPortfolio/contact" class="button">Get in touch!</a>
+    </section>
+    
+    <p class="copy-spurt">
+        Mazi: Founder and CEO of Vertex Innovations
+    </p>
+    <img src="{{ '/assets/images/Mazi.jpg' | relative_url }}" alt="Professional image of Mazi" class="copy-image">
+    
+    <section class="features">
+        <h3>About Mazi</h3>
+       <ul>
+            <li>Visionary entrepreneur with over 15 years of experience in technology and innovation.</li>
+            <li>Founder of Vertex Innovations, committed to developing cutting-edge solutions.</li>
+            <li>Passionate about transforming industries and enhancing quality of life through technology.</li>
+        </ul>
+    </section>
+    
+    {% include footer.html %}
+</body>
+</html>
