@@ -1,44 +1,45 @@
 ---
 layout: default
-title: "About the Game"
+title: "About Mazi"
 ---
 
-<section class="about-game">
-  <h1 class="title">About the Game</h1>
+# About Mazi
 
-  <div class="overview">
-    <h2>Overview</h2>
-    <p>Spurt! Empire Games is a strategic board game where players build their empires by collecting resources, conquering territories, and managing alliances. Ideal for ages 12+, it offers a perfect mix of tactics and teamwork for 2-6 players.</p>
-  </div>
+Welcome to the world of creativity and innovation! I’m **Mazi**, a visionary leader with a passion for delivering exceptional results in every project I undertake. With a strong foundation in strategic thinking and years of experience in the industry, I strive to leave a lasting impact in every endeavor.
 
-  <div class="highlights">
-    <h2>Gameplay Highlights</h2>
-    <ul>
-      <li>Unique resource system requiring careful planning</li>
-      <li>Dynamic alliances that shift as the game progresses</li>
-      <li>Multiple victory paths to keep gameplay fresh and challenging</li>
-    </ul>
-  </div>
+---
 
-  <div class="inclusions">
-    <h2>Inclusions</h2>
-    <ul>
-      <li>Game board</li>
-      <li>Resource cards and tokens</li>
-      <li>Player pieces</li>
-      <li>Instruction manual</li>
-    </ul>
-  </div>
+## Skills
 
-  <div class="testimonials">
-    <h2>What Players Are Saying</h2>
-    <blockquote>
-      <p>"An addictive strategy game with endless replay value!" -- Mark Twain</p>
-      <footer>- Alex, early tester</footer>
-    </blockquote>
-    <blockquote>
-      <p>"Perfect for family game night, challenging yet fun!" -- Cleopatra</p>
-      <footer>- Maria, player</footer>
-    </blockquote>
-  </div>
-</section>
+- **Leadership & Team Building:** Proven ability to inspire and guide teams towards achieving ambitious goals.
+- **Strategic Planning:** Expert in developing effective strategies to navigate complex challenges.
+- **Creative Problem-Solving:** Adept at identifying innovative solutions to drive success.
+- **Communication:** Strong interpersonal skills with a talent for articulating ideas clearly and effectively.
+- **Technology Proficiency:** Familiar with modern tools and platforms to enhance productivity and performance.
+
+---
+
+## Experience
+
+- **Founder & CEO, Grand Empire (2020 – Present)**  
+  Launched and developed a successful strategy-based game that fosters teamwork and innovation. Managed all aspects of game design, production, and marketing, creating a product that has captivated audiences worldwide.
+
+- **Project Manager, Innovation Hub Inc. (2015 – 2020)**  
+  Spearheaded groundbreaking initiatives to streamline operations and improve client engagement. Led diverse teams across multiple disciplines to achieve project goals.
+
+- **Game Developer, Creative Sparks Studio (2010 – 2015)**  
+  Designed and developed interactive board games and digital applications, earning accolades for creativity and technical execution.
+
+---
+
+## Education
+
+- **Master’s Degree in Game Design & Development**  
+  University of Creative Arts, 2010  
+
+- **Bachelor’s Degree in Business Administration**  
+  Metropolitan University, 2008  
+
+---
+
+I believe in the power of collaboration and the limitless potential of human creativity. Let’s connect and create something extraordinary together!
