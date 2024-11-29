@@ -1,0 +1,21 @@
+title: "My Portfolio"
+description: "My portfolio website."
+theme: minima
+baseurl: "" # Leave empty for root of GitHub Pages
+url: "https://emediongessien.github.io/myportfolio"
+
+# Social media and contact details
+social:
+  twitter: Mazi
+  facebook: Mazi
+
+# Navigation links
+nav_links:
+  - name: "Home"
+    link: "/"
+  - name: "About"
+    link: "/about"
+  - name: "Portfolio"
+    link: "/portfolio"
+  - name: "Contact"
+    link: "/contact"

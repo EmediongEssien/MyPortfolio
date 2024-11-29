@@ -1,0 +1,375 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 60px;
+    background-color: #f4f4f9;
+    /* Light background color */
+}
+
+.copy-spurt {
+    font-family: 'Roboto', sans-serif;
+    max-width: 1500px;
+    /* Limit the width for better readability */
+    margin: 60px auto;
+    /* Center align with space from the top */
+    padding: 20px;
+    background-color: #f9f9f9;
+    /* Light background to distinguish the section */
+    color: #333333;
+    /* Darker color for readability */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Add shadow for depth */
+    line-height: 1.6;
+    /* Improve line spacing */
+    font-size: 1.1em;
+    /* Slightly increase font size */
+}
+
+.copy-image {
+    width: 80%;
+    max-width: 800px;
+    /* Size it to fit within the text area */
+    margin: 0 auto 20px;
+    /* Center and add bottom margin */
+    border-radius: 8px;
+    display: block;
+}
+
+
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #1e3a8a;
+    /* Blue background */
+    color: #ffffff;
+    /* White text */
+    text-align: center;
+    padding: 10px 20px;
+    /* Added horizontal padding */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+    max-width: 1470px;
+    /* Limit width for wider screens */
+    margin: 0 auto;
+    /* Center content */
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li a {
+    color: #ffcc00;
+    /* Yellow for link text */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #27ae60;
+    /* Green on hover */
+}
+
+/* Hero Banner */
+.hero-banner {
+    background-color: #27ae60;
+    /* Green background */
+    color: #ffffff;
+    /* White text */
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero-banner h2 {
+    font-size: 2.5em;
+    margin: 0.2em 0;
+}
+
+.hero-banner p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.hero-banner .button {
+    background-color: #ffcc00;
+    /* Yellow button */
+    color: #1e3a8a;
+    /* Blue text */
+    padding: 10px 20px;
+    font-size: 1em;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero-banner .button:hover {
+    background-color: #ffc107;
+    /* Slightly darker yellow on hover */
+}
+
+/* Features Section */
+.features {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.features h3 {
+    font-size: 2em;
+    color: #1e3a8a;
+    /* Blue for section headers */
+    margin-bottom: 0.5em;
+}
+
+.features ul {
+    list-style-type: none;
+    padding: 30;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.features li {
+    background-color: #f4f4f9;
+    /* Light background for cards */
+    padding: 15px;
+    border-radius: 8px;
+    width: 200px;
+    font-size: 1.1em;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.features li:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #1e3a8a;
+    /* Blue background */
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    margin-left: 15px;
+}
+
+footer ul li a {
+    color: #ffcc00;
+    /* Yellow links in the footer */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer ul li a:hover {
+    color: #27ae60;
+    /* Green on hover */
+}
+
+.site-title {
+    color: #ffffff;
+    /* White text */
+    text-decoration: none;
+}
+
+.site-title:hover {
+    color: #ffcc00;
+    /* Optional: Yellow on hover */
+}
+
+.about-game {
+    font-family: Roboto, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1.title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #333;
+}
+
+/* p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #666;
+} */
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+ul li {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+.testimonials blockquote {
+    border-left: 4px solid #4CAF50;
+    margin: 20px 0;
+    padding-left: 15px;
+    font-style: italic;
+    color: #444;
+}
+
+.testimonials blockquote footer {
+    text-align: right;
+    font-size: 0.9em;
+    color: #888;
+}
+
+.game-features {
+    font-family: Roboto, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1.title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #333;
+}
+
+.purchase {
+    font-family: Roboto, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1.title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+strong {
+    color: #4CAF50;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.purchase .product-listing,
+.purchase .payment-gateway,
+.purchase .shipping-details,
+.purchase .customer-support {
+    margin-bottom: 20px;
+}
+
+.purchase .product-listing p,
+.purchase .payment-gateway p,
+.purchase .shipping-details p,
+.purchase .customer-support p {
+    margin: 5px 0;
+}
+
+.contact {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1.title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
+
+.contact .social-media ul {
+    padding-left: 20px;
+}
+
+.contact .social-media ul li {
+    font-size: 1em;
+    margin: 5px 0;
+}
